@@ -14,15 +14,21 @@ url: https://ntueemlta2025.github.io
 year: "2025 Fall"
 TAemail: ntueemlta2025@gmail.com
 TAs:
-  - name: 謝博揚
-    email: r13942050@ntu.edu.tw
-    url: https://ntueemlta2025.github.io/img/hsieh.jpg
-  - name: 徐樂融
-    email: b09102101@ntu.edu.tw
-    url: https://ntueemlta2025.github.io/img/rong2.jpg
-  - name: 藍照淇
-    email: b09901030@ntu.edu.tw
-    url: https://ntueemlta2025.github.io/img/lan.jpg
+  - name: 蔡哲維
+    email: f13945039@ntu.edu.tw
+    url: https://ntueemlta2025.github.io/img/tsai.jpg
+  - name: 李奕辰
+    email: b12901024@ntu.edu.tw
+    url: https://ntueemlta2025.github.io/img/lee.jpg
+  - name: 育正
+    email: 
+    url: 
+  - name: 履方
+    email: 
+    url: 
+  - name: 宜倫
+    email: 
+    url: 
 
 TeacherEmail: peiyuanwu@ntu.edu.tw
 
@@ -145,7 +151,7 @@ exams: #ok
 networks:
   - kind: facebook
     title: Join Discussion
-    url: https://www.facebook.com/groups/854106740116833 #ok
+    url: https://www.facebook.com/groups/1478835293151012 #ok
 
 
 ################ website theme design ################
