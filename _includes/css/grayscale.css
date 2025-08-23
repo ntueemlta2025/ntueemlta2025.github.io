@@ -130,6 +130,14 @@ a:focus {
         background-color: {{ site.color.light }};
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
+
+    .navbar-custom.top-nav-collapse a {
+        color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse .navbar-brand .navbar-toggle {
+        color: #000;
+    }
 }
 
 .intro {
