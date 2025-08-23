@@ -32,28 +32,28 @@ TAs:
 
 TeacherEmail: peiyuanwu@ntu.edu.tw
 
-Officehour: 星期二 14:00-16:00
-mathTAhour: 星期三 15:30-17:20 at 電二147B
-programmingTAhour: 星期三 15:30-17:20 at 電二147B
+Officehour: TBD
+mathTAhour: TBD
+programmingTAhour: TBD
 # Syllabus
 syllabus:
   - title: Week 01
     slides:
-      - title: Syllabus
-        kind: file-pdf-o
-        path: ./slides/week1/ML syllabus (113-1).pdf
+      #- title: Syllabus
+      #  kind: file-pdf-o
+      #  path: ./slides/week1/ML syllabus (113-1).pdf
 
-      - title: Introduction
-        kind: file-pdf-o
-        path: ./slides/week1/W1_Introduction.pdf
+      #- title: Introduction
+      #  kind: file-pdf-o
+      #  path: ./slides/week1/W1_Introduction.pdf
         
-      - title: Regression
-        kind: file-pdf-o
-        path: ./slides/week1/W1_Regression.pdf
+      #- title: Regression
+      #  kind: file-pdf-o
+      #  path: ./slides/week1/W1_Regression.pdf
 
-      - title: W1-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLREY_JttMD-xER9ZrQRZrFUdOpZkoOps7
+      #- title: W1-video
+      #  kind: play-circle
+      #  path: https://www.youtube.com/playlist?list=PLREY_JttMD-xER9ZrQRZrFUdOpZkoOps7
 
       # - title: Regression-video
       #   kind: play-circle
@@ -63,6 +63,9 @@ syllabus:
 
 # Resources:
 resources: #ok
+  - title: 2024 fall 機器學習網站 - 吳沛遠
+    url: https://ntueemlta2024.github.io/
+
   - title: 2023 spring 機器學習網站 - 李宏毅
     url: https://speech.ee.ntu.edu.tw/~hylee/ml/2023-spring.php
 
@@ -83,23 +86,23 @@ resources: #ok
 homeworks:
 
 
-  - title: HW1 - Regression
-    links:
+  #- title: HW1 - Regression
+  #  links:
       # - title: video # video
       #   kind: youtube-play 
       #   url: https://www.youtube.com/playlist?list=PLREY_JttMD-xEtOEDOXqh1NCvqQUJGmh5
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-slide.pdf
-      - title: kaggle # kaggle
-        kind: trophy  
-        url: https://www.kaggle.com/competitions/ml2025-fall-hw1
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com/drive/1gwJd9ZxtTw13b0dvGxBVVzsM3rruTK5Z?usp=sharing
-      - title: math
-        kind: file-pdf-o 
-        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
+  #    - title: slide # slide
+  #      kind: file-pdf-o 
+  #      url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-slide.pdf
+  #    - title: kaggle # kaggle
+  #      kind: trophy  
+  #      url: https://www.kaggle.com/competitions/ml2025-fall-hw1
+  #    - title: colab # colab
+  #      kind: cloud 
+  #      url: https://colab.research.google.com/drive/1gwJd9ZxtTw13b0dvGxBVVzsM3rruTK5Z?usp=sharing
+  #    - title: math
+  #      kind: file-pdf-o 
+  #      url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
       # - title: TA sharing
       #   kind: file-pdf-o 
       #   url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
@@ -107,9 +110,9 @@ homeworks:
       #   kind: youtube-play 
       #   url: https://youtube.com/playlist?list=PLIKHU3mMrCpiHAV7VKuQRgJRMkygmkou1&feature=shared
 
-      - title: math-solution
-        kind: file-pdf-o 
-        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math-solution.pdf
+#      - title: math-solution
+#        kind: file-pdf-o 
+#        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math-solution.pdf
 
 exams: #ok
   - title: Exam-107
@@ -157,7 +160,7 @@ networks:
 ################ website theme design ################
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  light: '#ECF8FA'
+  light: '#FFEEE6'
   links: '#219ab3' # color for button
   special-links: '#FFCC00'
 
