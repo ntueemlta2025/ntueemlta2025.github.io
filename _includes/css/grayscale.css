@@ -66,7 +66,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.light }};
+    background-color: #f8f8f8;
 }
 
 .navbar-custom .navbar-brand {
@@ -127,6 +127,7 @@ a:focus {
     }
 
     .navbar-custom.top-nav-collapse {
+        background-color: {{ site.color.light }};
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
@@ -197,7 +198,7 @@ img{
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #000;
+    color: #f8f8f8;
     background: rgba(255,255,255,.1);
 }
 
