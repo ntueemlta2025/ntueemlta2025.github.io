@@ -1,0 +1,43 @@
+    <!-- Download Section -->
+    <section id="homework" class="container content-section text-center">
+        <div class="homework-section">
+            
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h2>Homework</h2>
+                    </br>
+                    </br>
+                    </br>
+                    <h3 class="text-left"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 作業規範 Regulations</h3>
+                    <a href="https://ntueemlta2023.github.io/img/plagiarism.jpg">  <h3 class="special-links text-left">NO PLAGIARISM !</h3> </a>
+                    <p class="text-left"> 
+                    - You should finish your homework on your own. <br>
+                    - Do NOT share your answer with any other else. <br>
+                    - You should NOT modify your prediction files manually. <br>
+                    - Do NOT use any approaches to submit your results more than 5 times a day on Kaggle. <br>
+                    - Do NOT search or use additional data or pre-trained models.  <br>
+                    - Prof. Wu & TAs preserve the rights to change the rules & grades.  </br>
+                    </p>
+                    </br>
+                    <div class="card">
+                        <div class="card-header">
+                        <h3 class="text-left"><i class="fa fa-bars" aria-hidden="true"></i> 作業列表 list</h3>
+                        </div>
+                        <ul class="list-group">
+                            {% for homework in site.homeworks %}
+                            <li class="list-group-item list-group-item-info"> 
+                                <h3 class="text-center"> {{homework.title}} </h3> 
+                                <hr/>
+                                <p class="text-center">
+                                    {% for link in homework.links %}
+                                    <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{link.kind}}"></i>
+                                        <span>{{link.title}}</span>
+                                    </a>
+                                    {% endfor %}
+                                </p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </section>

@@ -1,0 +1,32 @@
+<!-- Download Section -->
+<section id="exams" class="container content-section text-center">
+    <div class="exam-section">
+        
+            <div class="col-sm-6 col-sm-offset-3">
+                <h2>考古題</h2>
+                </br>
+                </br>
+                </br>
+                <div class="card">
+                    <div class="card-header">
+                    <h3 class="text-left"><i class="fa fa-bars" aria-hidden="true"></i> 考古題列表 List</h3>
+                    </div>
+                    <ul class="list-group">
+                        {% for exam in site.exams %}
+                        <li class="list-group-item list-group-item-info"> 
+                            <h3 class="text-center"> {{exam.title}} </h3> 
+                            <hr/>
+                            <p class="text-center">
+                                {% for link in exam.links %}
+                                <a href="{{ link.path }}" class="btn btn-default btn-lg"><i class="fa fa-{{link.kind}}"></i>
+                                    <span>{{link.title}}</span>
+                                </a>
+                                {% endfor %}
+                            </p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+    </div>
+</section>

@@ -1,0 +1,448 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{ulem}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{CJK}
+\usepackage{amsthm,amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{relsize}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usepackage{bbm}
+
+\newtheorem{problem}{Problem}
+
+\newcommand{\N}{\mathcal N}
+\newcommand{\Y}{\mathbf Y}
+\newcommand{\real}{\mathbb{R}}
+\newcommand{\X}{\mathbf X}
+\newcommand{\Z}{\mathbf Z}
+
+\newcommand*{\tran}{^{\mkern-1.5mu\mathsf{T}}}
+\newcommand*{\hermitian}{^{\mkern-1.5mu\mathsf{H}}}
+
+\newcommand{\Tau}{\mathrm{T}}
+
+\DeclareMathOperator{\Tr}{Tr}
+
+\def\Epsilon{E}
+\def\Eta{H}
+
+\def\veczero{{\mathbf 0}}
+\def\vec1{{\mathbf 1}}
+\def\matzero{{\mathbf 0}}
+
+\def\veca{{\mathbf a}}
+\def\vecb{{\mathbf b}}
+\def\vecc{{\mathbf c}}
+\def\vecd{{\mathbf d}}
+\def\vece{{\mathbf e}}
+\def\vecf{{\mathbf f}}
+\def\vecg{{\mathbf g}}
+\def\vech{{\mathbf h}}
+\def\veck{{\mathbf k}}
+\def\vecm{{\mathbf m}}
+\def\vecn{{\mathbf n}}
+\def\vecp{{\mathbf p}}
+\def\vecq{{\mathbf q}}
+\def\vecr{{\mathbf r}}
+\def\vect{{\mathbf t}}
+\def\vecu{{\mathbf u}}
+\def\vecv{{\mathbf v}}
+\def\vecw{{\mathbf w}}
+\def\vecx{{\mathbf x}}
+\def\vecy{{\mathbf y}}
+\def\vecz{{\mathbf z}}
+
+\def\vecalpha{{\mathbf \alpha}}
+\def\vecbeta{{\mathbf \beta}}
+\def\vecepsilon{{\boldsymbol \epsilon}}
+\def\veclambda{{\mathbf \lambda}}
+\def\vecvarepsilon{{\boldsymbol \varepsilon}}
+\def\vecgamma{{\boldsymbol \gamma}}
+\def\vecmu{{\boldsymbol \mu}}
+\def\vecnu{{\boldsymbol \nu}}
+\def\vecomega{{\boldsymbol \omega}}
+\def\vecphi{{\boldsymbol \phi}}
+\def\vecpsi{{\boldsymbol \psi}}
+\def\vecsigma{{\mathbf \sigma}}
+\def\vecvarsigma{{\mathbf \varsigma}}
+\def\vectau{{\boldsymbol \tau}}
+\def\vecupsilon{{\boldsymbol \upsilon}}
+\def\vecvarphi{{\boldsymbol \varphi}}
+\def\vecxi{{\boldsymbol \xi}}
+\def\veczeta{{\boldsymbol \zeta}}
+
+
+\def\vecX{{\mathbf X}}
+\def\vecY{{\mathbf Y}}
+\def\vecZ{{\mathbf Z}}
+
+\def\vecEpsilon{{\mathbf \Epsilon}}
+\def\vecEta{{\mathbf \Eta}}
+
+
+\def\matA{{\mathbf A}}
+\def\matB{{\mathbf B}}
+\def\matC{{\mathbf C}}
+\def\matD{{\mathbf D}}
+\def\matE{{\mathbf E}}
+\def\matF{{\mathbf F}}
+\def\matH{{\mathbf H}}
+\def\matI{{\mathbf I}}
+\def\matK{{\mathbf K}}
+\def\matL{{\mathbf L}}
+\def\matO{{\mathbf O}}
+\def\matOmega{{\mathbf \Omega}}
+\def\matN{{\mathbf N}}
+\def\matP{{\mathbf P}}
+\def\matS{{\mathbf S}}
+\def\matU{{\mathbf U}}
+\def\matV{{\mathbf V}}
+\def\matW{{\mathbf W}}
+\def\matX{{\mathbf X}}
+\def\matZ{{\mathbf Z}}
+\def\matGamma{{\mathbf{\mathrm{\Gamma}}}}
+\def\matLambda{{\mathbf{\mathrm{\Lambda}}}}
+\def\matOmega{{\mathbf{\mathrm{\Omega}}}}
+\def\matPhi{{\mathbf \Phi}}
+\def\matPsi{{\mathbf \Psi}}
+\def\matRho{{\mathbf{\mathrm{P}}}}
+\def\matSigma{{\mathbf{\mathrm{\Sigma}}}}
+\def\matUpsilon{{\mathbf{\mathrm{\Upsilon}}}}
+\def\matXi{{\mathbf{\mathrm{\Xi}}}}
+
+\def\matzero{{\mathbf 0}}
+
+
+\def\complex{{\mathbb {C}}}
+\def\real{{\mathbb {R}}}
+\def\extreal{\overline{\mathbb {R}}}
+\def\rational{{\mathbb {Q}}}
+\def\pnint{{\mathbb {Z}}}
+\def\nnint{{\mathbb{N}_0}}
+\def\pint{{\mathbb {N}}}
+\def\extint{\overline{\mathbb {Z}}}
+
+\def\defas{:=}
+\def\as{\overset{\mbox{a.s.}}{=}}
+\def\ind{1}
+\def\normal{\calN}
+\def\expect{\mathbb{E}}
+\def\variance{\mbox{Var}}
+\def\covariance{\mbox{Cov}}
+\def\prob{\mathbb{P}}
+\def\risk{\calR}
+\def\Uniform{{\cal{U}}}
+\def\Trace{\mbox{Tr}}
+\def\sign{\mbox{sign}}
+\def\evaloss{\star}
+\def\margin{\varrho}
+\def\Log{{Log}}
+
+\def\converged{\xrightarrow[]{D}}
+\def\convergep{\xrightarrow[]{P}}
+\def\convergeas{\xrightarrow[]{a.s.}}
+
+\def\Borel{{\frakB}}
+
+\def\Re{\mbox{Re}}
+\def\Im{\mbox{Im}}
+
+\def\interior{\mathrm{o}}
+
+\def\calA{{\cal A}}
+\def\calB{{\cal B}}
+\def\calC{{\cal C}}
+\def\calD{{\cal D}}
+\def\calE{{\cal E}}
+\def\calF{{\cal F}}
+\def\calG{{\cal G}}
+\def\calH{{\cal H}}
+\def\calK{{\cal K}}
+\def\calL{{\cal L}}
+\def\calM{{\cal M}}
+\def\calN{{\cal N}}
+\def\calP{{\cal P}}
+\def\calR{{\cal R}}
+\def\calS{{\cal S}}
+\def\calT{{\cal T}}
+\def\calV{{\cal V}}
+\def\calX{{\cal X}}
+\def\calY{{\cal Y}}
+\def\calZ{{\cal Z}}
+
+\def\scrA{\mathscr{A}}
+\def\scrB{\mathscr{B}}
+\def\scrC{\mathscr{C}}
+\def\scrD{\mathscr{D}}
+\def\scrE{\mathscr{E}}
+\def\scrF{\mathscr{F}}
+\def\scrG{\mathscr{G}}
+\def\scrI{\mathscr{I}}
+\def\scrJ{\mathscr{J}}
+\def\scrK{\mathscr{K}}
+\def\scrL{\mathscr{L}}
+\def\scrM{\mathscr{M}}
+\def\scrN{\mathscr{N}}
+\def\scrP{\mathscr{P}}
+\def\scrQ{\mathscr{Q}}
+\def\scrR{\mathscr{R}}
+\def\scrS{\mathscr{S}}
+\def\scrU{\mathscr{U}}
+\def\scrV{\mathscr{V}}
+\def\scrX{\mathscr{X}}
+
+
+\def\pzch{\mathpzc{h}}
+\def\pzcy{\mathpzc{y}}
+
+\def\frakA{\mathfrak{A}}
+\def\frakB{\mathfrak{B}}
+\def\frakG{\mathfrak{G}}
+\def\frakM{\mathfrak{M}}
+
+\def\continuous{{\cal C}}
+
+
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+
+\title{HW5 Handwritten Assignment}
+\author{Lecturor: Pei-Yuan Wu\\
+TAs: {Chun-Lin Huang(Problem 1, 2), Yuan-Chia Chang(Problem 3, 4, 5)}}
+\date{December 2023, First Edition}
+\begin{document}
+
+\maketitle
+
+\section*{Problem 1 (Kernel)(0.5\%)}
+Consider the following data points:
+\begin{itemize}
+    \item $c_1=\{(3,3),(3,-3),(-3,3),(-3,-3)\}$
+    \item $c_2=\{(6,6),(6,-6),(-6,6),(-6,-6)\}$
+\end{itemize}
+The data are not linearly separable in this case. Write down a feature map and kernel function to transform the data into a new space, in which the data are linearly separable. Note that you do not just give me a feature map; please explain why. 
+
+\section*{Problem 2 (SVM with Gaussian kernel){(1.5\%)}}
+Consider the task of training a support vector machine using the Gaussian kernel $K(x, z) = \exp(-\frac{\|x-z\|^2}{\tau^2})$. We will show that as long as there are no two identical points in the training set, we can always find a value for the bandwidth parameter $\tau$ such that the SVM achieves zero training error.
+
+Recall from class that the decision function learned by the support vector machine
+can be written as
+\begin{equation*}
+    f(x) = \sum_{i=1}^N \alpha_i y_i k(x_i, x) + b
+\end{equation*}
+Assume that the training data $\{(x_1, y_1), \cdots, (x_N, y_N)\}$ consists of points which are separated by at least distance of $\epsilon$; that is, $\|x_j - x_i\|\geq \epsilon$, for any $i\neq j$. For simplicity, we assume $\alpha_i = 1$ for all $i =1, \cdots, m$ and $b = 0$. Find values for the  Gaussian kernel width $\tau$ such that $x_i$ is correctly classified, for all $i=1, \cdots, N$, e.g., $f(x_i)y_i>0$ for all $i=1, \cdots, N$.
+
+Hint: Notice that for $y \in\{-1,+1\}$ the prediction on $x_{i}$ will be correct if $\left|f\left(x_{i}\right)-y_{i}\right|<1$, so find a value of $\tau$ that satisfies this inequality for all $i$.
+
+
+\section*{Problem 3 (Support Vector Regression)(2\%)}
+Suppose we are given a training set $\{(x_1, y_1), \cdots, (x_m, y_m)\}$, where $x_i\in\real^{(n+1)}$ and $y_i\in\real$. We would like to find a hypothesis of the form $f(x)=w^T x+b$. It is possible that no such function $f(x)$ exists to satisfy these constraints for all points. To deal with otherwise infeasible constraints, we introduce slack variables $\xi_i$ for each point. The (convex) optimization problem is 
+\begin{align}
+\min _{w, b, \xi} & \frac{1}{2}\|w\|^2 + C\sum_{i=1}^m \xi_i & \\
+\text { s.t. } & y_{i}-w^T x_{i}-b \leq \epsilon + \xi_i & i=1, \ldots, m \label{eq2}\\
+& w^T x_{i}+b-y_{i} \leq \epsilon + \xi_i & i=1, \ldots, m\label{eq3} \\
+& \xi_i \geq 0  & i=1, \ldots, m \label{eq4} 
+\end{align}
+where $\epsilon>0$ is a given, fixed value and $C>0$.  Denote that $\xi = (\xi_1, \cdots, \xi_m)$. 
+\begin{enumerate}[label=(\alph*)]
+    \item Write down the Lagrangian for the optimization problem above. Consider the sets of Lagrange multiplier $\alpha_i$, $\alpha_i^*$, $\beta_i$ corresponding to the (\ref{eq2}), (\ref{eq3}), and (\ref{eq4}), so that the Lagrangian would be written as $\mathcal{L}(w, b, \xi, \alpha, \alpha^*, \beta)$, where $\alpha = (\alpha_1, \cdots, \alpha_m)$, $\alpha^* = (\alpha_1^*, \cdots, \alpha_m^*)$, and $\beta = (\beta_1, \cdots, \beta_m)$.
+    \item Derive the dual optimization problem. You will have to take derivatives of the Lagrangian with respect to $w$, $b$, and $\xi$
+    \item Suppose that $(\bar{w}, \bar{b}, \bar{\xi})$ and $(\bar{\alpha}, \bar{\alpha^*}, \bar{\beta})$ are the optimal solutions to a primal and dual optimization problem, respectively. 
+    
+    Denote $\bar{w} = \sum_{i=1}^m (\bar{\alpha_i} - \bar{\alpha_i^*})x_i$
+    \begin{enumerate}[label=(\arabic*)]
+        \item Prove that 
+        \begin{equation}  
+            \bar{b} = \arg\min_{b\in\real}C\sum_{i=1}^m \max(|y_i - (\bar{w}^Tx_i + b)|-\epsilon, 0)
+        \end{equation}
+        \item Define $e=y_i - \left(\overline{w}^T x_i+\bar{b}\right)$ Prove that
+        \begin{equation}
+            \left\{\begin{array}{lll}
+            \bar{\alpha}_i=\bar{\alpha}_i^*=0, & \bar{\xi}_i =0, & \text { if } |e|<\epsilon \\
+            0 \leq \bar{\alpha}_i \leq C, & \bar{\xi}_i =0, & \text { if } e=\epsilon  \\
+            0 \leq \bar{\alpha}_i^* \leq C, & \bar{\xi}_i=0, & \text { if } e=-\epsilon  \\
+            \bar{\alpha}_i=C, & \bar{\xi}_i=e-\epsilon & \text{ if } e>\epsilon\\
+            \bar{\alpha}_i^*=C, & \bar{\xi}_i=-(e+\epsilon) & \text{ if } e<-\epsilon
+            \end{array}\right.
+        \end{equation}
+    \end{enumerate}
+    \item Show that the algorithm can be kernelized and write down the kernel form of the decision function. For this, you have to show that
+    \begin{enumerate}[label=(\arabic*)]
+        \item The dual optimization objective can be written  in terms of inner products or training examples
+        \item At test time, given a new $x$ the hypothesis $f(x)$ can also be computed in terms of inner produce.
+    \end{enumerate}
+\end{enumerate}
+
+\section*{Problem 4 (Sparse SVM)(2\%)}
+
+ Given training data of $N$ input-output pairs $\scrD = ((x_i,y_i))_{i=1}^N$, where $x_i \in \calX$ and $y_i \in \{\pm 1\}$. One can give two types of arguments in favor of the SVM algorithm: one based on the sparsity of the support vectors, another based on the notion of margin.  Suppose instead of maximizing the margin, we choose instead to maximize sparsity by minimizing the $p$-norm of the vector $\vecalpha = (\alpha_1,...,\alpha_N)$ that defines the weight vector $\vecw$, for some $p \geq 1$. In this question we consider the case $p=2$, which leads to the following optimization problem:
+\begin{equation*}
+\begin{array}{ll}
+\mbox{minimize} 	& f(\vecalpha,b,\vecxi) = \frac{1}{2}\sum_{i=1}^N \alpha_i^2 + \sum_{i=1}^N C_i \xi_i\\
+\mbox{subject to} 	& y_i\left(\sum_{j=1}^N \alpha_j y_j \vecx_i \cdot \vecx_j + b\right) \geq 1 - \xi_i, ~ i \in \llbracket 1,N \rrbracket\\
+\mbox{variables} 	& b \in \real, \alpha_i \geq 0, \xi_i \geq 0, ~ i \in \llbracket 1,N \rrbracket
+\end{array}
+\end{equation*}
+%
+which can be rewritten in the following primal problem:
+\begin{equation}\label{eq:sparse_svm_primal}
+\begin{array}{ll}
+\mbox{minimize} 	& f(\vecalpha,b,\vecxi) = \frac{1}{2}\sum_{i=1}^N \alpha_i^2 + \sum_{i=1}^N C_i \xi_i\\
+\mbox{subject to} 	& \left.\begin{array}{l}
+g_{1,i}(\vecalpha,b,\vecxi) = 1 - \xi_i - y_i\left(\sum_{j=1}^N \alpha_j y_j \vecx_i \cdot \vecx_j + b\right) \leq 0\\
+g_{2,i}(\vecalpha,b,\vecxi) = -\alpha_i \leq 0\\
+g_{3,i}(\vecalpha,b,\vecxi) = -\xi_i \leq 0
+\end{array}\right\} ~ i \in \llbracket 1,N \rrbracket\\
+\mbox{variables} 	& \vecalpha = (\alpha_1,...,\alpha_N) \in \real^N, b \in \real, \vecxi = (\xi_1,...,\xi_N) \in \real^N
+\end{array}
+\end{equation}
+%
+as well as its Lagrangian dual problem:
+\begin{equation}\label{eq:sparse_svm_dual_pre}
+\begin{array}{ll}
+\mbox{maximize} 	& \theta(\vecomega,\vecbeta,\vecgamma) = \inf_{\vecalpha \in \real^N, b \in \real, \vecxi \in \real^N}L(\vecalpha,b,\vecxi,\vecomega,\vecbeta,\vecgamma)\\
+\mbox{subject to} 	& \omega_i \geq 0, \beta_i \geq 0, \gamma_i \geq 0, ~ i \in \llbracket 1,N \rrbracket\\
+\mbox{variables} 	& \vecomega = (\omega_1,...,\omega_N) \in \real^N, \vecbeta = (\beta_1,...,\beta_N) \in \real^N, \vecgamma = (\gamma_1,...,\gamma_N) \in \real^N
+\end{array}
+\end{equation}
+%
+\begin{enumerate}
+\item Write down the Lagrangian function $L(\vecalpha,b,\vecxi,\vecomega,\vecbeta,\vecgamma)$ in explicit form of $\vecalpha,b,\vecxi,\vecomega,\vecbeta,\vecgamma$.
+\item  Show that the duality gap between (\ref{eq:sparse_svm_primal}) and (\ref{eq:sparse_svm_dual_pre}) is zero.
+\item Derive $\theta(\vecomega,\vecbeta,\vecgamma)$ in explicit form of dual variables $\vecomega,\vecbeta,\vecgamma$.
+\item  Show that the dual problem can be simplified as
+\begin{equation}\label{eq:sparse_svm_dual}
+\begin{array}{ll}
+\mbox{maximize} 	& \sum_{i=1}^N \omega_i - \frac{1}{2}\sum_{i=1}^N \left( \sum_{j=1}^N \omega_j y_j y_i \vecx_j \cdot \vecx_i \right)_+^2\\
+\mbox{subject to} 	& \sum_{i=1}^N \omega_i y_i = 0\\
+\mbox{variables} 	& 0 \leq \omega_i \leq C_i, ~ i=1,...,N
+\end{array}
+\end{equation}
+%
+\item Suppose $({\bar \vecalpha}, {\bar b}, {\bar \vecxi})$ and $({\bar \vecomega},{\bar \vecbeta}, {\bar \vecgamma})$ are the optimal solutions to problems (\ref{eq:sparse_svm_primal}) and (\ref{eq:sparse_svm_dual_pre}) respectively.  Denote ${\bar \vecw} = \sum_{j=1}^N {\bar \alpha}_j y_j \vecx_j$.
+\begin{enumerate}
+\item Prove that
+\begin{equation}\label{eq:sparse_svm_optimal_alpha}
+{\bar \alpha}_i = \max\left(\sum_{j=1}^N {\bar \omega}_j y_j y_i \vecx_j \cdot \vecx_i, 0\right) ~ \forall i=1,...,N
+\end{equation}
+%
+\item Prove that
+\begin{equation}\label{eq:sparse_svm_optimal_b}
+{\bar b} = \argmin_{b \in \real}\sum_{i=1}^N C_i \max\left( 1-y_i\left({\bar \vecw} \cdot \vecx_i + b\right), 0 \right),
+\end{equation}
+%
+\item Prove that ${\bar \xi}_i = \max\left(1-y_i\left({\bar \vecw} \cdot \vecx_i + {\bar b}\right),0\right)$ for all $i = \llbracket 1,N\rrbracket$.
+\item Prove that
+\begin{equation*}
+\left.\begin{array}{lll}
+{\bar \omega}_i = C_i, & \mbox{if}~ y_i\left({\bar \vecw} \cdot \vecx_i + {\bar b}\right) < 1\\
+{\bar \omega}_i = 0, 	& \mbox{if}~ y_i\left({\bar \vecw} \cdot \vecx_i + {\bar b}\right) > 1\\
+0 \leq {\bar \omega}_i \leq C_i, & \mbox{if}~ y_i\left({\bar \vecw} \cdot \vecx_i + {\bar b}\right) = 1
+\end{array}\right\} ~ \forall i=1,...,N
+\end{equation*}
+\end{enumerate}
+\end{enumerate}
+%
+
+\section*{Problem 5 (Spherical one class SVM)(2\%)(Bonus)}
+
+Suppose we aim to fit a hypersphere which encompasses a majority of data points $\vecx_1,...,\vecx_N \in \real^M$ by considering the following optimization problem: (here $\vecmu$ and each $\vecx_i$ are considered as column vectors)
+\begin{equation}\label{eq:hyperellipsoidal_one_class_svm_original}
+\begin{array}{ll}
+\mbox{minimize} 	& R^2 + \frac{1}{\nu}\sum_{i=1}^N C_i\xi_i\\
+\mbox{subject to} 	& \left.\begin{array}{l}\|\vecx_i-\vecmu\|^2 \leq R^2 + \xi_i\\ \xi_i \geq 0\end{array}\right\} ~ \forall i \in \llbracket 1,N\rrbracket\\
+				& R \geq 0\\
+\mbox{variables} 	& R \in \real, \vecmu \in \real^M, \vecxi = (\xi_1,...,\xi_N) \in \real^N
+\end{array}
+\end{equation}
+%
+where $C_i > 0$ for each $i \in \llbracket 1,N\rrbracket$, and $0< \nu < \sum_{i=1}^N C_i$.  Let $\rho = R^2$ and rewrite (\ref{eq:hyperellipsoidal_one_class_svm_original}) in the form of primal problem:
+%Q: Describe the meaning of $C_i$, and $R$.
+%Q: Describe the meaning of $\nu$.
+\begin{equation}\label{eq:hyperellipsoidal_one_class_svm_primal}
+\begin{array}{ll}
+\mbox{minimize} 	& f(\rho,\vecmu,\vecxi) = \rho + \frac{1}{\nu}\sum_{i=1}^N C_i\xi_i\\
+\mbox{subject to} 	& \left.\begin{array}{l}g_{1,i}(\rho,\vecmu,\vecxi) = \|\vecx_i-\vecmu\|^2 - \rho - \xi_i \leq 0\\ 
+					g_{2,i}(\rho,\vecmu,\vecxi) = -\xi_i \leq 0\end{array}\right\} ~ \forall i \in \llbracket 1,N\rrbracket\\
+				& g_3(\rho,\vecmu,\vecxi) = -\rho \leq 0\\
+\mbox{variables} 	& \rho \in \real, \vecmu \in \real^M, \vecxi \in \real^N
+\end{array}
+\end{equation}
+%
+as well its Lagrangian dual problem:
+\begin{equation}\label{eq:hyperellipsoidal_one_class_svm_dual_pre}
+\begin{array}{ll}
+\mbox{maximize} 	& \theta(\vecalpha,\vecbeta,\gamma) = \inf_{\rho \in \real, \vecmu \in \real^M, \vecxi \in \real^N}L(\rho,\vecmu,\vecxi,\vecalpha,\vecbeta,\gamma)\\
+\mbox{subject to} 	& \alpha_i \geq 0, \beta_i \geq 0 ~ \forall i \in \llbracket 1,N\rrbracket \\
+				& \gamma \geq 0\\
+\mbox{variables} 	& \vecalpha = (\alpha_1,...,\alpha_N) \in \real^N, \vecbeta = (\beta_1,...,\beta_N) \in \real^N, \gamma \in \real
+\end{array}
+\end{equation}
+%
+\begin{enumerate}
+\item  Write down the Lagrangian function $L(\rho,\vecmu,\vecxi,\vecalpha,\vecbeta,\gamma)$ in explicit form of $\rho,\vecmu,\vecxi,\vecalpha,\vecbeta,\gamma$.
+\item Show that the duality gap between (\ref{eq:hyperellipsoidal_one_class_svm_primal}) and (\ref{eq:hyperellipsoidal_one_class_svm_dual_pre}) is zero.
+\item Derive $\theta(\vecalpha,\vecbeta,\gamma)$ in explicit form of dual variables $\vecalpha,\vecbeta,\gamma$.
+\item Show that the dual problem can be simplified as
+\begin{equation}\label{eq:hyperellipsoidal_one_class_svm_dual}
+\begin{array}{ll}
+\mbox{maximize} 	& \|\vecalpha\|_1 \left(\sum_{i=1}^N {\hat \alpha}_i \|\vecx_i\|^2 -\sum_{1\leq i,j \leq N} {\hat \alpha}_i {\hat \alpha}_j \vecx_i^T \vecx_j \right)\\
+\mbox{subject to} 	& \sum_{i=1}^N \alpha_i \leq 1\\
+\mbox{variables} 	& 0 \leq \alpha_i \leq \frac{C_i}{\nu}, i \in \llbracket 1,N\rrbracket
+\end{array}
+\end{equation}
+%
+where $\|\vecalpha\|_1 = \sum_{i=1}^N \alpha_i$ and $\alpha_i = \|\vecalpha\|_1 {\hat \alpha}_i$.
+%
+\item Suppose $({\bar \rho}, {\bar \vecmu}, {\bar \vecxi})$ and $({\bar \vecalpha},{\bar \vecbeta},{\bar \gamma})$ are optimal solutions to problems (\ref{eq:hyperellipsoidal_one_class_svm_primal}) and (\ref{eq:hyperellipsoidal_one_class_svm_dual_pre}), respectively.
+\begin{enumerate}
+\item Show that $\|{\bar \vecalpha}\|_1 {\bar \vecmu} = \sum_{i=1}^N {\bar \alpha}_i\vecx_i$.
+\item Show that
+\begin{equation*}
+{\bar \rho} \in \argmin_{\rho \geq 0}\left(\rho + \frac{1}{\nu}\sum_{i=1}^N C_i\max(\|\vecx_i-{\bar \vecmu}\|^2 - \rho,0)\right).
+\end{equation*}
+%
+\item Show that
+\begin{footnotesize}
+\begin{equation}\label{eq:one_class_svm_optimal_rho}
+\min\left\{\rho \geq 0: \sum_{i:\|\vecx_i-{\bar \vecmu}\|^2 > \rho} C_i \leq \nu \right\}
+\leq {\bar \rho}
+\leq \min\left\{\rho \geq 0: \sum_{i:\|\vecx_i-{\bar \vecmu}\|^2 > \rho} C_i < \nu \right\}.
+\end{equation}
+\end{footnotesize}
+%
+\item  Prove that ${\bar \xi}_i = \max\left(\|\vecx_i-{\bar \vecmu}\|^2 - {\bar \rho},0\right)$ for each $i \in \llbracket 1,N\rrbracket$.
+\item Prove that
+\begin{equation*}
+\left\{\begin{array}{ll}
+{\bar \alpha}_i = C_i/\nu 			& \mbox{, if}~ \|\vecx_i-{\bar \vecmu}\|^2 > {\bar \rho}\\
+{\bar \alpha}_i = 0				& \mbox{, if}~ \|\vecx_i-{\bar \vecmu}\|^2 < {\bar \rho}\\
+0 \leq {\bar \alpha}_i \leq C_i/\nu 	& \mbox{, if}~ \|\vecx_i-{\bar \vecmu}\|^2 = {\bar \rho}
+\end{array}\right..
+\end{equation*}
+\end{enumerate}
+%
+\item Suppose $C_i = 1/n$ for each $i \in \llbracket 1,n \rrbracket$. What is the physical meaning of $\nu$?
+\end{enumerate}
+
+ \section*{Version Description}
+ \begin{enumerate}
+     \item First Edition: Finish Problem 1 to 5
+ \end{enumerate}
+\end{document}

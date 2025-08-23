@@ -1,0 +1,163 @@
+###### EDIT NOTE ######
+# 1. You can update website by simply updating this config file!
+# 2. Please follow the format to edit. (alignment, variable name, etc.)
+#    > For slides: don't forget to upload pdf to ./slides/weekx !
+# 3. For more detail, please contact author: R12942094@ntu.edu.tw
+
+# Site settings #ok
+title: Machine Learning 
+description: "Pei-Yuan Wu, Hung-Yi Lee"
+location: 106 臺北市大安區羅斯福路四段 1 號博理館 530 室
+phone: 02-3366-3700 ext.6530
+
+url: https://ntueemlta2025.github.io 
+year: "2025 Fall"
+TAemail: ntueemlta2025@gmail.com
+TAs:
+  - name: 謝博揚
+    email: r13942050@ntu.edu.tw
+    url: https://ntueemlta2025.github.io/img/hsieh.jpg
+  - name: 徐樂融
+    email: b09102101@ntu.edu.tw
+    url: https://ntueemlta2025.github.io/img/rong2.jpg
+  - name: 藍照淇
+    email: b09901030@ntu.edu.tw
+    url: https://ntueemlta2025.github.io/img/lan.jpg
+
+TeacherEmail: peiyuanwu@ntu.edu.tw
+
+Officehour: 星期二 14:00-16:00
+mathTAhour: 星期三 15:30-17:20 at 電二147B
+programmingTAhour: 星期三 15:30-17:20 at 電二147B
+# Syllabus
+syllabus:
+  - title: Week 01
+    slides:
+      - title: Syllabus
+        kind: file-pdf-o
+        path: ./slides/week1/ML syllabus (113-1).pdf
+
+      - title: Introduction
+        kind: file-pdf-o
+        path: ./slides/week1/W1_Introduction.pdf
+        
+      - title: Regression
+        kind: file-pdf-o
+        path: ./slides/week1/W1_Regression.pdf
+
+      - title: W1-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLREY_JttMD-xER9ZrQRZrFUdOpZkoOps7
+
+      # - title: Regression-video
+      #   kind: play-circle
+      #   path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
+
+
+
+# Resources:
+resources: #ok
+  - title: 2023 spring 機器學習網站 - 李宏毅
+    url: https://speech.ee.ntu.edu.tw/~hylee/ml/2023-spring.php
+
+  - title: 2023 fall 機器學習網站 - 吳沛遠
+    url: https://ntueemlta2023.github.io/
+
+  - title: 李宏毅教授 Youtube
+    url: https://www.youtube.com/c/HungyiLeeNTU
+
+
+# Homework
+# Please follow the format below to update the content.
+  # - title: string
+  #   links:
+      # - title: string 
+      #   kind: fa fa icon name (Ref: https://fontawesome.com/v4/icons/)
+      #   url: url
+homeworks:
+
+
+  - title: HW1 - Regression
+    links:
+      # - title: video # video
+      #   kind: youtube-play 
+      #   url: https://www.youtube.com/playlist?list=PLREY_JttMD-xEtOEDOXqh1NCvqQUJGmh5
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-slide.pdf
+      - title: kaggle # kaggle
+        kind: trophy  
+        url: https://www.kaggle.com/competitions/ml2025-fall-hw1
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1gwJd9ZxtTw13b0dvGxBVVzsM3rruTK5Z?usp=sharing
+      - title: math
+        kind: file-pdf-o 
+        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
+      # - title: TA sharing
+      #   kind: file-pdf-o 
+      #   url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
+      # - title: Bonus sharing
+      #   kind: youtube-play 
+      #   url: https://youtube.com/playlist?list=PLIKHU3mMrCpiHAV7VKuQRgJRMkygmkou1&feature=shared
+
+      - title: math-solution
+        kind: file-pdf-o 
+        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math-solution.pdf
+
+exams: #ok
+  - title: Exam-107
+    links:
+      - title: Final-Exam-107 # slide
+        kind: file-pdf-o 
+        path: ./exams/ML_107_final_ques.pdf
+
+  - title: Exam-108
+    links:
+      - title: Final-Exam-108 # slide
+        kind: file-pdf-o 
+        path: ./exams/ML_108_final_ques.pdf
+
+  - title: Exam-109
+    links:
+      - title: Final-Exam-109 # slide
+        kind: file-pdf-o 
+        path: ./exams/ML_109_final_ques.pdf
+
+  - title: Exam-110
+    links:
+      - title: Final-Exam-110 # slide
+        kind: file-pdf-o 
+        path: ./exams/ML_110_final_ques.pdf
+
+  - title: Exam-111
+    links:
+      - title: Final-Exam-111 # slide
+        kind: file-pdf-o 
+        path: ./exams/ML_111_final_ques.pdf
+  - title: Exam-112
+    links:
+      - title: Final-Exam-111 # slide
+        kind: file-pdf-o 
+        path: ./exams/ML_112_final_ques.pdf
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+networks:
+  - kind: facebook
+    title: Join Discussion
+    url: https://www.facebook.com/groups/854106740116833 #ok
+
+
+################ website theme design ################
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  light: '#ECF8FA'
+  links: '#219ab3' # color for button
+  special-links: '#FFCC00'
+
+# Footer settings
+footer: https://ntueemlta2025.github.io
+
+# Build settings
+markdown: kramdown
+permalink: pretty

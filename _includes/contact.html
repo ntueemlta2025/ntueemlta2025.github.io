@@ -1,0 +1,22 @@
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2>Contact</h2>
+                <p>Office Hour: {{ site.Officehour }}</p>
+                <p>數學 TA hour: {{ site.mathTAhour }}</p>
+                <p>程式 TA hour: {{ site.programmingTAhour }}</p>
+                </br></br>
+                <p> - 若有課程內容或作業問題，可到臉書討論區發問，感謝！</br>                   
+                - Please join our discussion group if you have any questions. Thank you!</p>
+                <ul class="list-inline banner-network-buttons">
+                    {% for network in site.networks %}
+                    <li>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.kind }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
