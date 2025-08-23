@@ -80,7 +80,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #000;
+    color: #f8f8f8;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #000;
+    color: #f8f8f8;
 }
 
 .navbar-custom .nav li.active {
@@ -180,10 +180,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #000;
+    border: 2px solid #f8f8f8;
     border-radius: 35px;
     font-size: 40px;
-    color: #000;
+    color: #f8f8f8;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
