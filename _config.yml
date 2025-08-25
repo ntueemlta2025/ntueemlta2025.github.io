@@ -43,13 +43,13 @@ syllabus:
       #  kind: file-pdf-o
       #  path: ./slides/week1/ML syllabus (113-1).pdf
 
-      #- title: Introduction
-      #  kind: file-pdf-o
-      #  path: ./slides/week1/W1_Introduction.pdf
+      - title: Introduction
+        kind: file-pdf-o
+        path: ./slides/week1/W1_Introduction.pdf
         
-      #- title: Regression
-      #  kind: file-pdf-o
-      #  path: ./slides/week1/W1_Regression.pdf
+      - title: Regression
+        kind: file-pdf-o
+        path: ./slides/week1/W1_Regression.pdf
 
       #- title: W1-video
       #  kind: play-circle
