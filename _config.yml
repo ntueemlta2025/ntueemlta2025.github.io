@@ -32,9 +32,13 @@ TAs:
 
 TeacherEmail: peiyuanwu@ntu.edu.tw
 
-Officehour: TBD
-mathTAhour: TBD
-programmingTAhour: TBD
+Officehour: Thurs 09:00-12:00
+TA hour: |
+  Mon 11:00~12:00 at 總圖B1討論區
+  Mon 13:00~14:00 at 電二蟲洞
+  Wed 12:00~14:00 at 電二蟲洞
+  Thurs 16:00~17:00 at 電二蟲洞
+
 # Syllabus
 syllabus:
   - title: Week 01
@@ -59,6 +63,20 @@ syllabus:
       #   kind: play-circle
       #   path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
+  - title: Week 02
+    slides:
+      - title: Bias and Variance
+        kind: file-pdf-o
+        path: ./slides/week2/W2a_Bias_and_Variance.pdf
+
+      - title: Classification - Probability Generative Model
+        kind: file-pdf-o
+        path: ./slides/week2/W2b_Classification (v2).pdf
+
+      - title: Logistic Regression
+        kind: file-pdf-o
+        path: ./slides/week2/W2_Logistic Regression (v4).pdf
+        
 
 
 # Resources:
