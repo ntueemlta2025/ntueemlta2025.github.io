@@ -104,23 +104,23 @@ resources: #ok
 homeworks:
 
 
-  #- title: HW1 - Regression
-  #  links:
+  - title: HW1 - Regression
+    links:
       # - title: video # video
       #   kind: youtube-play 
       #   url: https://www.youtube.com/playlist?list=PLREY_JttMD-xEtOEDOXqh1NCvqQUJGmh5
-  #    - title: slide # slide
-  #      kind: file-pdf-o 
-  #      url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-slide.pdf
-  #    - title: kaggle # kaggle
-  #      kind: trophy  
-  #      url: https://www.kaggle.com/competitions/ml2025-fall-hw1
-  #    - title: colab # colab
-  #      kind: cloud 
-  #      url: https://colab.research.google.com/drive/1gwJd9ZxtTw13b0dvGxBVVzsM3rruTK5Z?usp=sharing
-  #    - title: math
-  #      kind: file-pdf-o 
-  #      url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-slide.pdf
+      - title: kaggle # kaggle
+        kind: trophy  
+        url: https://www.kaggle.com/competitions/ml-2025-fall-hw-1
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1OkvJ8FC8naaNZJWrgsv7-WjqGqFM1gd9?usp=drive_link     
+      - title: math
+        kind: file-pdf-o 
+        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
       # - title: TA sharing
       #   kind: file-pdf-o 
       #   url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
