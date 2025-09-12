@@ -45,7 +45,7 @@ syllabus:
     slides:
       - title: Syllabus
         kind: file-pdf-o
-        path: ./slides/week1/ML syllabus (114-1).pdf
+        path: ./slides/week1/ML syllabus (114-1)_v3.pdf
 
       - title: Introduction
         kind: file-pdf-o
