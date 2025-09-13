@@ -114,7 +114,7 @@ homeworks:
         url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-slide.pdf
       - title: kaggle # kaggle
         kind: trophy  
-        url: https://www.kaggle.com/competitions/ml-2025-fall-hw-1
+        url: https://www.kaggle.com/competitions/ml-2025-fall-hw-1-v-2
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com/drive/1OkvJ8FC8naaNZJWrgsv7-WjqGqFM1gd9?usp=drive_link     
