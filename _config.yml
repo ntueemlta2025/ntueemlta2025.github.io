@@ -76,7 +76,39 @@ syllabus:
       - title: Logistic Regression
         kind: file-pdf-o
         path: ./slides/week2/W2_Logistic Regression (v4).pdf
-        
+
+  - title: Week 03
+    slides:
+      - title: Deep Learning
+        kind: file-pdf-o
+        path: ./slides/week3/W3_DL_introduction.pdf
+
+      - title: Gradient Descent
+        kind: file-pdf-o
+        path: ./slides/week3/W3_Gradient Descent.pdf
+
+      - title: Backpropagation
+        kind: file-pdf-o
+        path: ./slides/week2/W3_BP (v2).pdf
+
+      - title: Tips for DL
+        kind: file-pdf-o
+        path: ./slides/week3/W3_DNN tip.pdf
+
+  - title: Week 04
+    slides:
+      - title: Ensemble
+        kind: file-pdf-o
+        path: ./slides/week4/W4_ensemble.pdf
+
+      - title: Adaboost
+        kind: file-pdf-o
+        path: ./slides/week4/W4_adaBoost.pdf
+
+      - title: Auto Encoder
+        kind: file-pdf-o
+        path: ./slides/week4/W4_autoencoder.pdf
+    
 
 
 # Resources:
