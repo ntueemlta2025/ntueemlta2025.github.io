@@ -109,7 +109,19 @@ syllabus:
         kind: file-pdf-o
         path: ./slides/week4/W4_autoencoder.pdf
     
+  - title: Week 05
+    slides:
+      - title: CNN
+        kind: file-pdf-o
+        path: ./slides/week5/W5_CNN.pdf
 
+      - title: PCA
+        kind: file-pdf-o
+        path: ./slides/week5/W5_PCA_v2.pdf
+
+      - title: PCA and SVD
+        kind: file-pdf-o
+        path: ./slides/week5/W5_PCA_SVD.pdf
 
 # Resources:
 resources: #ok
