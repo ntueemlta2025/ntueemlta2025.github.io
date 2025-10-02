@@ -123,6 +123,28 @@ syllabus:
         kind: file-pdf-o
         path: ./slides/week5/W5_PCA_SVD.pdf
 
+  - title: Week 06
+    slides:
+      - title: GMM and EM
+        kind: file-pdf-o
+        path: ./slides/week6/W6_GMM_EM.pdf
+      
+  - title: Week 07
+    slides:
+      - title: VAE
+        kind: file-pdf-o
+        path: ./slides/week7/W7_GMM_EM.pdf
+
+  - title: Week 08
+    slides:
+      - title: Neighbor Embedding
+        kind: file-pdf-o
+        path: ./slides/week8/W8_TSNE.pdf
+
+      - title: RNN
+        kind: file-pdf-o
+        path: ./slides/week8/W8_RNN.pdf
+
 # Resources:
 resources: #ok
   - title: 2024 fall 機器學習網站 - 吳沛遠
@@ -165,6 +187,9 @@ homeworks:
       - title: math
         kind: file-pdf-o 
         url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
+
+  - title: HW2 - CNN
+    links:
       # - title: TA sharing
       #   kind: file-pdf-o 
       #   url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
