@@ -190,6 +190,20 @@ homeworks:
 
   - title: HW2 - CNN
     links:
+      - title: slide
+        kind: file-pdf-o
+        url: https://docs.google.com/presentation/d/1u0baGIKkMab-udUAmEmYRXJRrR3hQ1fc2uzCMbV0Y0k/edit?usp=sharing
+      - title: kaggle
+        kind: trophy
+        url: https://www.kaggle.com/competitions/ml-2025-fall-hw-2
+      - title: colab
+        kind: cloud
+        url: https://colab.research.google.com/drive/1YT4zCSCfrPnry01kM-xI2brJYQUuE6rz?usp=sharing
+      - title: math
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw2/ml-2025fall-hw2-math.pdf
+
+
       # - title: TA sharing
       #   kind: file-pdf-o 
       #   url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
