@@ -187,6 +187,9 @@ homeworks:
       - title: math
         kind: file-pdf-o 
         url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
+      - title: math-solution
+        kind: file-pdf-o 
+        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math-solution.pdf
 
   - title: HW2 - CNN
     links:
