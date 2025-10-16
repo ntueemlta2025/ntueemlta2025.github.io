@@ -1,5 +1,5 @@
 # ntueeml2025.github.io
-Machine Learning 2025 Fall - Course Page 
+Machine Learning 2025 Fall - Course Page
 
 This course page is adapted from 2023 Machine Learning Webpage, which is created by Yuan-Chia Chang
 

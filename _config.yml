@@ -5,12 +5,12 @@
 # 3. For more detail, please contact author: R12942094@ntu.edu.tw
 
 # Site settings #ok
-title: Machine Learning 
+title: Machine Learning
 description: "Pei-Yuan Wu, Hung-Yi Lee"
 location: 106 臺北市大安區羅斯福路四段 1 號博理館 530 室
 phone: 02-3366-3700 ext.6530
 
-url: https://ntueemlta2025.github.io 
+url: https://ntueemlta2025.github.io
 year: "2025 Fall"
 TAemail: ntueemlta2025@gmail.com
 TAs:
@@ -50,7 +50,7 @@ syllabus:
       - title: Introduction
         kind: file-pdf-o
         path: ./slides/week1/W1_Introduction.pdf
-        
+
       - title: Regression
         kind: file-pdf-o
         path: ./slides/week1/W1_Regression.pdf
@@ -108,7 +108,7 @@ syllabus:
       - title: Auto Encoder
         kind: file-pdf-o
         path: ./slides/week4/W4_autoencoder.pdf
-    
+
   - title: Week 05
     slides:
       - title: CNN
@@ -128,7 +128,7 @@ syllabus:
       - title: GMM and EM
         kind: file-pdf-o
         path: ./slides/week6/W6_GMM_EM.pdf
-      
+
   - title: Week 07
     slides:
       - title: VAE
@@ -164,7 +164,7 @@ resources: #ok
 # Please follow the format below to update the content.
   # - title: string
   #   links:
-      # - title: string 
+      # - title: string
       #   kind: fa fa icon name (Ref: https://fontawesome.com/v4/icons/)
       #   url: url
 homeworks:
@@ -173,22 +173,22 @@ homeworks:
   - title: HW1 - Regression
     links:
       # - title: video # video
-      #   kind: youtube-play 
+      #   kind: youtube-play
       #   url: https://www.youtube.com/playlist?list=PLREY_JttMD-xEtOEDOXqh1NCvqQUJGmh5
       - title: slide # slide
-        kind: file-pdf-o 
+        kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-slide.pdf
       - title: kaggle # kaggle
-        kind: trophy  
+        kind: trophy
         url: https://www.kaggle.com/competitions/ml-2025-fall-hw-1-v-2
       - title: colab # colab
-        kind: cloud 
+        kind: cloud
         url: https://colab.research.google.com/drive/1OkvJ8FC8naaNZJWrgsv7-WjqGqFM1gd9?usp=drive_link     
       - title: math
-        kind: file-pdf-o 
+        kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
       - title: math-solution
-        kind: file-pdf-o 
+        kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math-solution.pdf
 
   - title: HW2 - CNN
@@ -206,52 +206,67 @@ homeworks:
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw2/ml-2025fall-hw2-math.pdf
 
+  - title: HW3 - Embedding
+    links:
+      - title: slide
+        kind: file-pdf-o
+        url: https://docs.google.com/presentation/d/1A9mrlnpb0otoeJbVwm_9b5iuxL1qtnqx/edit?usp=sharing&ouid=108654344629628610450&rtpof=true&sd=true
+      - title: kaggle
+        kind: trophy
+        url: https://www.kaggle.com/competitions/ml-2025-fall-hw-3
+      - title: colab
+        kind: cloud
+        url: https://colab.research.google.com/drive/1nnX1rSE6SnVEkgKDUEE8G4h4ltCRN0ZA?usp=drive_link
+      - title: math
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw3/ml-2025fall-hw3-math.pdf
+
 
       # - title: TA sharing
-      #   kind: file-pdf-o 
+      #   kind: file-pdf-o
       #   url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
       # - title: Bonus sharing
-      #   kind: youtube-play 
+      #   kind: youtube-play
       #   url: https://youtube.com/playlist?list=PLIKHU3mMrCpiHAV7VKuQRgJRMkygmkou1&feature=shared
 
 #      - title: math-solution
-#        kind: file-pdf-o 
+#        kind: file-pdf-o
 #        url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math-solution.pdf
 
 exams: #ok
   - title: Exam-107
     links:
       - title: Final-Exam-107 # slide
-        kind: file-pdf-o 
+        kind: file-pdf-o
         path: ./exams/ML_107_final_ques.pdf
 
   - title: Exam-108
     links:
       - title: Final-Exam-108 # slide
-        kind: file-pdf-o 
+        kind: file-pdf-o
         path: ./exams/ML_108_final_ques.pdf
 
   - title: Exam-109
     links:
       - title: Final-Exam-109 # slide
-        kind: file-pdf-o 
+        kind: file-pdf-o
         path: ./exams/ML_109_final_ques.pdf
 
   - title: Exam-110
     links:
       - title: Final-Exam-110 # slide
-        kind: file-pdf-o 
+        kind: file-pdf-o
         path: ./exams/ML_110_final_ques.pdf
 
   - title: Exam-111
     links:
       - title: Final-Exam-111 # slide
-        kind: file-pdf-o 
+        kind: file-pdf-o
         path: ./exams/ML_111_final_ques.pdf
   - title: Exam-112
     links:
       - title: Final-Exam-111 # slide
-        kind: file-pdf-o 
+        kind: file-pdf-o
         path: ./exams/ML_112_final_ques.pdf
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
