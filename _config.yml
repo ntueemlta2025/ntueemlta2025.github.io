@@ -133,7 +133,7 @@ syllabus:
     slides:
       - title: VAE
         kind: file-pdf-o
-        path: ./slides/week7/W7_GMM_EM.pdf
+        path: ./slides/week7/W7_VAE.pdf
 
   - title: Week 08
     slides:
