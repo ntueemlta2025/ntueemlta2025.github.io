@@ -144,6 +144,24 @@ syllabus:
       - title: RNN
         kind: file-pdf-o
         path: ./slides/week8/W8_RNN.pdf
+  
+  - title: Support Vector Machine
+    slides: 
+      - title: Intro
+        kind: file-pdf-o
+        path: ./slides/svm/svm_L1_svm_intro.pdf
+      - title: Optimization
+        kind: file-pdf-o
+        path: ./slides/svm/svm_L2_svm_optimization.pdf
+      - title: Kernel
+        kind: file-pdf-o
+        path: ./slides/svm/svm_L3_svm_kernel.pdf
+      - title: Duality intro
+        kind: file-pdf-o
+        path: ./slides/svm/svm_L4_duality_intro.pdf
+      - title: Duality
+        kind: file-pdf-o
+        path: ./slides/svm/svm_L5_svm duality.pdf
 
 # Resources:
 resources: #ok
