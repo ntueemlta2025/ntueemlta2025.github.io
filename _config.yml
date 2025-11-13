@@ -239,6 +239,26 @@ homeworks:
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw3/ml-2025fall-hw3-math.pdf
 
+  - title: HW4
+    links:
+      - title: slide
+        kind: file-pdf-o
+        url: https://docs.google.com/presentation/d/1K14B55onXZWo-s5a0lvPwfy7yC-D7Vhd/edit?usp=drive_link&ouid=108654344629628610450&rtpof=true&sd=true
+      - title: kaggle
+        kind: trophy
+        url: https://www.kaggle.com/competitions/ml-2025-fall-hw-4
+      - title: colab
+        kind: cloud
+        url: https://colab.research.google.com/drive/1xfYMQZdomFow5WZzQ-McS85xLBO6JFuW?usp=drive_link
+      - title: template
+        kind: file-pdf-o
+        url: https://docs.google.com/document/d/1PgQC1bqZIEWcColGdtiK6qYIiTDSdl_cbirQmhoAx0Q/edit?usp=drive_link
+      - title: math
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw3/ml-2025fall-hw4-math.pdf
+
+
+
 
       # - title: TA sharing
       #   kind: file-pdf-o
