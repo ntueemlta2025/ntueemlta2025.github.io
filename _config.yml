@@ -223,6 +223,9 @@ homeworks:
       - title: math
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw2/ml-2025fall-hw2-math.pdf
+      - title: math-solution
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw2/ml-2025fall-hw2-math-solution.pdf
 
   - title: HW3 - Embedding
     links:
