@@ -163,6 +163,19 @@ syllabus:
         kind: file-pdf-o
         path: ./slides/svm/svm_L5_svm duality.pdf
 
+  - title: Reinforcement Learning
+    slides:
+      - title: RL notes
+        kind: file-pdf-o
+        path: ./slides/rl/RL_notes.pdf
+      - title: Regret bound
+        kind: file-pdf-o
+        path: ./slides/rl/regret_bound.pdf
+      - title: RL
+        kind: file-pdf-o
+        path: ./slides/rl/RL-2.pdf   
+
+
 # Resources:
 resources: #ok
   - title: 2024 fall 機器學習網站 - 吳沛遠
