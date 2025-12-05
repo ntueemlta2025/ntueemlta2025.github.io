@@ -273,7 +273,20 @@ homeworks:
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw4/ml-2025fall-hw4-math.pdf
 
-
+  - title: HW5 - RL
+    links:
+      - title: slide
+        kind: file-pdf-o
+        url: https://docs.google.com/presentation/d/1VZVcQYpC3wILuCQUw69Pj61aSm03SE8T/edit?usp=sharing&ouid=108654344629628610450&rtpof=true&sd=true
+      - title: colab
+        kind: cloud
+        url: https://colab.research.google.com/drive/1Y-inBpOsmdkUcGXXvOJROYjQ8EISW-EE?authuser=2
+      - title: template
+        kind: file-pdf-o
+        url: https://docs.google.com/document/d/1YvU0mpIVeQaMK7PYOvIu5LbmwTJD9NHT/edit?usp=sharing&ouid=108654344629628610450&rtpof=true&sd=true
+      - title: math
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw5/ml-2025fall-hw5-math.pdf
 
 
       # - title: TA sharing
