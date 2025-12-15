@@ -254,6 +254,9 @@ homeworks:
       - title: math
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw3/ml-2025fall-hw3-math.pdf
+      - title: math-solution
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw3/ml-2025fall-hw3-math-solution.pdf
 
   - title: HW4
     links:
@@ -272,6 +275,9 @@ homeworks:
       - title: math
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw4/ml-2025fall-hw4-math.pdf
+      - title: math-solution
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw4/ml-2025fall-hw4-math-solution.pdf
 
   - title: HW5 - RL
     links:
