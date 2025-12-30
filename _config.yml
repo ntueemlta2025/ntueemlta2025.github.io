@@ -144,9 +144,9 @@ syllabus:
       - title: RNN
         kind: file-pdf-o
         path: ./slides/week8/W8_RNN.pdf
-  
+
   - title: Support Vector Machine
-    slides: 
+    slides:
       - title: Intro
         kind: file-pdf-o
         path: ./slides/svm/svm_L1_svm_intro.pdf
@@ -173,7 +173,7 @@ syllabus:
         path: ./slides/rl/regret_bound.pdf
       - title: RL
         kind: file-pdf-o
-        path: ./slides/rl/RL-2.pdf   
+        path: ./slides/rl/RL-2.pdf
 
 
 # Resources:
@@ -214,7 +214,7 @@ homeworks:
         url: https://www.kaggle.com/competitions/ml-2025-fall-hw-1-v-2
       - title: colab # colab
         kind: cloud
-        url: https://colab.research.google.com/drive/1OkvJ8FC8naaNZJWrgsv7-WjqGqFM1gd9?usp=drive_link     
+        url: https://colab.research.google.com/drive/1OkvJ8FC8naaNZJWrgsv7-WjqGqFM1gd9?usp=drive_link
       - title: math
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw1/ml-2025fall-hw1-math.pdf
@@ -269,9 +269,6 @@ homeworks:
       - title: colab
         kind: cloud
         url: https://colab.research.google.com/drive/1xfYMQZdomFow5WZzQ-McS85xLBO6JFuW?usp=drive_link
-      - title: template
-        kind: file-pdf-o
-        url: https://docs.google.com/document/d/1PgQC1bqZIEWcColGdtiK6qYIiTDSdl_cbirQmhoAx0Q/edit?usp=drive_link
       - title: math
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw4/ml-2025fall-hw4-math.pdf
@@ -287,12 +284,12 @@ homeworks:
       - title: colab
         kind: cloud
         url: https://colab.research.google.com/drive/1Y-inBpOsmdkUcGXXvOJROYjQ8EISW-EE?authuser=2
-      - title: template
-        kind: file-pdf-o
-        url: https://docs.google.com/document/d/1YvU0mpIVeQaMK7PYOvIu5LbmwTJD9NHT/edit?usp=sharing&ouid=108654344629628610450&rtpof=true&sd=true
       - title: math
         kind: file-pdf-o
         url: https://ntueemlta2025.github.io/homeworks/hw5/ml-2025fall-hw5-math.pdf
+      - title: math-solution
+        kind: file-pdf-o
+        url: https://ntueemlta2025.github.io/homeworks/hw4/ml-2025fall-hw5-math-solution.pdf
 
 
       # - title: TA sharing
