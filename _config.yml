@@ -335,9 +335,21 @@ exams: #ok
         path: ./exams/ML_111_final_ques.pdf
   - title: Exam-112
     links:
-      - title: Final-Exam-111 # slide
+      - title: Final-Exam-112 # slide
         kind: file-pdf-o
         path: ./exams/ML_112_final_ques.pdf
+
+  - title: Exam-113
+    links:
+      - title: Final-Exam-113 # slide
+        kind: file-pdf-o
+        path: ./exams/ML_113_final_ques.pdf
+
+  - title: Exam-114
+    links:
+      - title: Final-Exam-114 # slide
+        kind: file-pdf-o
+        path: ./exams/ML_114_final_ques.pdf
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
